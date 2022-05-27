@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 27 May 2022 08:21:35 -0600</lastBuildDate><atom:link href="https://adamcoin.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://adamcoin.co/posts/hello-world/</link>
+      <title>Get Started</title>
+      <link>https://adamcoin.co/posts/get-started/</link>
       <pubDate>Fri, 27 May 2022 08:21:35 -0600</pubDate>
       
-      <guid>https://adamcoin.co/posts/hello-world/</guid>
-      <description></description>
+      <guid>https://adamcoin.co/posts/get-started/</guid>
+      <description>Buying Adams can be done using Tinyman. You need some Algorand (ALGO) in order to make the trade for Adams. Below you&amp;rsquo;ll find the steps necessary to trade Adams.
+First, you&amp;rsquo;ll need an ALGO wallet. You can download the Pera Wallet from the Android or iOS app store. You can follow the step by step tutorial on how to setup a wallet here.
+Once you have a wallet, you&amp;rsquo;ll need to purchase some ALGO.</description>
     </item>
     
   </channel>

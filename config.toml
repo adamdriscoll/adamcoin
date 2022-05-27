@@ -1,5 +1,0 @@
-baseURL = 'https://adamcoin.co/'
-languageCode = 'en-us'
-title = 'AdamCoin'
-theme = 'hyde'
-publishDir = 'docs'

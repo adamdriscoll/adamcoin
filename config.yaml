@@ -1,0 +1,81 @@
+baseURL: 'https://adamcoin.co/'
+languageCode: 'en-us'
+title: AdamCoin
+theme: hugo-fresh
+publishDir: 'docs'
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: /logos/coin.png
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: AdamCoin
+    # Hero subtitle (optional)
+    subtitle: Build your portfolio of Adams
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "/posts/get-started"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Charts
+    url: https://tinychart.org/asset/756006339
+  - title: Learn
+    url: /posts/get-started
+  - title: Trade
+    url: https://tinyman.org/
+    button: true
+  section1:
+    title: The Ultimate Coin
+    subtitle: What is AdamCoin?
+    tiles:
+    - title: Algorand
+      icon: mouse-globe
+      text: Built on Algorand
+      url: https://algoexplorer.io/asset/756006339
+      buttonText: View Explorer
+    - title: Made of Adams
+      icon: laptop-cloud
+      text: There are 1 billion Adams floating around
+      url: https://app.tinyman.org
+      buttonText: Buy Adams
+    - title: Get Started
+      icon: plug-cloud
+      text: Plug into the world of Adams
+      url: /posts/get-started
+      buttonText: Get started
+  footer:
+    # Logo (from /images/logos/___)
+    logo:  coin.png
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/adamdriscoll/adamcoin
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://facebook.com/adamdriscoll
+      icon: facebook
+    - link: https://twitter.com/adamdriscoll
+      icon: twitter
+    bulmalogo: false
